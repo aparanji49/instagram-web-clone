@@ -1,0 +1,41 @@
+/* remove margin */
+*{
+  margin: 0;
+}
+
+.app{
+ background-color: #fafafa;
+ height: 100vh;
+}
+
+.app__header{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.app__headerImage{
+  object-fit: contain;
+  height: 30px;
+  
+  padding: 20px;
+}
+
+.app__signup{
+  display: flex;
+  flex-direction: column;
+}
+
+.app__signbutton{
+  position: absolute;
+  right: 10px;
+}
+
+.app__posts{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

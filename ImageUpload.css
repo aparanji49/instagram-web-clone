@@ -1,0 +1,22 @@
+.imageUpload{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    justify-content: center;
+    display: flex;
+}
+
+
+.imageUpload__createPost{
+  display: flex;
+    max-width: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+input{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  
+}
